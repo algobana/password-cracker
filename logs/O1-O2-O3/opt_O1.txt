@@ -1,0 +1,36 @@
+Running cracker_v4 with -O1 optimization...
+Auto-tuning started...
+1 threads took 8.45327 seconds.
+2 threads took 4.46147 seconds.
+4 threads took 2.71273 seconds.
+8 threads took 1.87796 seconds.
+12 threads took 1.49881 seconds.
+16 threads took 1.77643 seconds.
+20 threads took 1.29107 seconds.
+
+Best thread count: 20 (1.29107 seconds)
+Password found: A2#ka
+Final execution time: 1.61022 seconds
+	Command being timed: "./cracker_v4"
+	User time (seconds): 117.16
+	System time (seconds): 0.01
+	Percent of CPU this job got: 494%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 290
+	Voluntary context switches: 27
+	Involuntary context switches: 8454
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

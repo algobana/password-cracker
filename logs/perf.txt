@@ -1,0 +1,24 @@
+# started on Tue Jun  3 20:50:11 2025
+
+
+ Performance counter stats for process id '16042':
+
+          5.001,85 msec task-clock                       #    1,000 CPUs utilized             
+                23      context-switches                 #    4,598 /sec                      
+                 0      cpu-migrations                   #    0,000 /sec                      
+                 0      page-faults                      #    0,000 /sec                      
+     <not counted>      cpu_atom/cycles/                                                        (0,00%)
+    20.889.368.251      cpu_core/cycles/                 #    4,176 GHz                       
+     <not counted>      cpu_atom/instructions/                                                  (0,00%)
+    74.602.897.584      cpu_core/instructions/                                                
+     <not counted>      cpu_atom/branches/                                                      (0,00%)
+    15.408.229.267      cpu_core/branches/               #    3,081 G/sec                     
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+         6.819.330      cpu_core/branch-misses/                                               
+             TopdownL1 (cpu_core)                 #     35,3 %  tma_backend_bound      
+                                                  #      0,8 %  tma_bad_speculation    
+                                                  #      3,5 %  tma_frontend_bound     
+                                                  #     60,4 %  tma_retiring           
+
+       5,002060834 seconds time elapsed
+
